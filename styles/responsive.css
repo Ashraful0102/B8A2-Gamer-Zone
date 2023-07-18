@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container{
+    border: 1px solid red;
+    min-height: 50px;
+    
+}
+.logo-container{
+    border: 1px solid green;
+    display: flex;
+   
+}
+.logo-container img{
+    width: 60.041px;
+    height: 40px;
+
+  
+   
+}
+.logo-container p{
+    border: 1px solid orange;
+    font-size: 45px;
+}
+.nav-item-container{
+    border: 1px solid blue;
+}
