@@ -1,30 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-
-*body{
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+body{
     font-family: 'Work Sans', sans-serif;
 }
+li{
+    list-style: none;
+}
+
 
 .nav-container{
-    border: 1px solid red;
-    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px 40px 240px;
+
+}
+.nav-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-items ul li a, .follow us{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.fa-youtune{
+    color: #F61C0D;
+    font-size: 23px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+.fa-tiktok{
+    font-size: 19px;
+}
+.nav-items ul li button{
+    width: 260px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    gap: 15px;
+}
+.nav-logo{
+    width: 86px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.nav-logo h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+.banner-container{
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px 0px 200px;
+    gap: 50px;
+}
+.banner-content{
+    text-align: left;
+}
+.banner-content h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.banner-content h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p i{
+    color: #534C64;
+    font-size: 25px;
+
+}
+.banner-content p{
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 0rem;
+  
+}
+.banner-content p:hover{
+    transform: scale(1.1);
+    color: #F948B2;
+    cursor: pointer;
+}
+.banner-img{
+    width: 42.75rem;
+    height: 100%;
+}
+.buttons{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.btn{
+   background: #F948B2;
+   border: none;
+   display: inline-flex;
+   border-radius: 40px;
+   font-size: 20px;
+   font-weight: 500;
+   color: #FFF;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
     
 }
-.logo-container{
-    border: 1px solid green;
-    display: flex;
-   
+.btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
-.logo-container img{
-    width: 60.041px;
-    height: 40px;
-
-  
-   
+.btn-blue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+ 
 }
-.logo-container p{
-    border: 1px solid orange;
-    font-size: 45px;
-}
-.nav-item-container{
-    border: 1px solid blue;
+.btn-blue:hover{
+    transform: scale(1.1);
 }
